@@ -64,3 +64,4 @@ title and help text it reads. The identifiers and the patterns used to detect st
 ## Support
 
 For help or to report a problem, email [support@timetraveltoaster.com](mailto:support@timetraveltoaster.com).
+
