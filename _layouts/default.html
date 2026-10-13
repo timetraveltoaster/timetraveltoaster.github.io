@@ -6,8 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      .site-banner {
+        background: #1f2328;
+        color: #fff;
+        padding: 20px 16px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+    </style>
   </head>
   <body>
+    <header class="site-banner">{{ site.title }}</header>
     <div class="container-lg px-3 my-5 markdown-body">
       {{ content }}
     </div>
